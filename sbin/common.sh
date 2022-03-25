@@ -16,7 +16,7 @@
 #
 
 #Actively load user env
-source ~/.bash_profile
+#source ~/.bash_profile
 
 export local_host="`hostname --fqdn`"
 

@@ -1,10 +1,10 @@
 #!/bin/sh
 #Actively load user env
-if [ -f "~/.bashrc" ];then
-  echo "Warning! user bashrc file does not exist."
-else
-  source ~/.bashrc
-fi
+#if [ -f "~/.bashrc" ];then
+#  echo "Warning! user bashrc file does not exist."
+#else
+#  source ~/.bashrc
+#fi
 
 shellDir=`dirname $0`
 workDir=`cd ${shellDir}/..;pwd`

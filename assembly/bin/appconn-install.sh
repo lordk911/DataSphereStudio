@@ -1,6 +1,6 @@
 #!/bin/sh
 #Actively load user env
-source ~/.bashrc
+#source ~/.bashrc
 shellDir=`dirname $0`
 workDir=`cd ${shellDir}/..;pwd`
 
